@@ -1,0 +1,441 @@
+<Environment> 
+      <!-- This is the PUBLIC variables section -->
+         <Variable> 
+                     <Name>ATK</Name> 
+                     <Value>Y</Value>
+         </Variable>
+          <Variable>
+       		<Name>CookieFlag</Name>
+       		<Value>Y</Value>
+          </Variable>
+      <!-- Below variables are for Multi Tenant support -->
+       <Variable> 
+                    <Name>TENANT</Name> 
+                    <Value>false</Value>
+        </Variable>
+        <Variable> 
+                    <Name>TENANT_NAME</Name> 
+                    <Value>%MT_TENANT_NAME%</Value>
+        </Variable>
+      
+        <Variable> 
+                    <Name>HZ_Url</Name> 
+                    <Value>https://slc06tun.dev.oraclecorp.com:10616/crmCommon/faces/</Value>
+        </Variable> 
+               <Variable> 
+                    <Name>EssUIShell_Url</Name> 
+                    <Value>https://slc06tun.dev.oraclecorp.com:10614/essUi/faces/</Value>
+        </Variable>
+      
+        <Variable> 
+                     <Name>CDH_Url</Name> 
+                    <Value>https://slc06tun.dev.oraclecorp.com:10616/sales/faces/</Value>         
+        </Variable>
+        
+        <Variable> 
+                    <Name>ZCQ_Url</Name> 
+                    <Value>https://slc06tun.dev.oraclecorp.com:10616/crmCommon/faces/</Value>        
+        </Variable>
+        <Variable> 
+                    <Name>ZMM_Url</Name> 
+                    <Value>https://slc06tun.dev.oraclecorp.com:10616/crmCommon/faces/</Value>        
+        </Variable> 
+        
+        <Variable> 
+                    <Name>SC_Url</Name> 
+                    <Value>https://slc06tun.dev.oraclecorp.com:10616/sales/faces/</Value>        
+        </Variable>
+      
+        <Variable> 
+                    <Name>ESD_Url</Name> 
+                    <Value>https://slc06tun.dev.oraclecorp.com:10616/esd/</Value>        
+        </Variable>
+        <Variable> 
+                    <Name>CTD_Url</Name> 
+                    <Value>https://slc06tun.dev.oraclecorp.com:10616/ctd/</Value>        
+        </Variable>
+        <Variable> 
+                    <Name>CONTRACTS_Url</Name> 
+                    <Value>https://slc06tun.dev.oraclecorp.com:10616/contractManagement/faces/</Value>         
+        </Variable>
+      
+        <Variable> 
+                    <Name>LEADS_Url</Name> 
+                    <Value>https://slc06tun.dev.oraclecorp.com:10616/sales/faces/</Value>        
+        </Variable>
+        <Variable> 
+                    <Name>MARKETING_Url</Name> 
+                    <Value>https://slc06tun.dev.oraclecorp.com:10616/sales/faces/</Value>        
+             </Variable>
+      
+        <Variable> 
+                    <Name>CUSTOMERCENTER_Url</Name> 
+                    <Value>https://slc06tun.dev.oraclecorp.com:10616/sales/faces/</Value>           
+             </Variable>
+      
+      <Variable> 
+                    <Name>SALES_Url</Name> 
+                    <Value>https://slc06tun.dev.oraclecorp.com:10616/sales/faces/</Value>        
+             </Variable>
+      <Variable> 
+                    <Name>SERVICE_Url</Name> 
+                    <Value>https://slc06tun.dev.oraclecorp.com:10616/sales/faces/FuseWelcome</Value>        
+             </Variable>
+             <Variable> 
+                    <Name>OC_Url</Name> 
+                    <Value>https://slc06tun.dev.oraclecorp.com:10616/orderCapture/faces/</Value>         
+             </Variable>
+      
+        <Variable> 
+                    <Name>DB_RO_CS</Name> 
+                    <Value>DSN=CRM_CENTRAL;UID=fusion_read_only;PWD=fusion_read_only;DBQ=CRM_CENTRAL</Value>        
+             </Variable>
+        <Variable> 
+                    <Name>FS_Url</Name> 
+                    <Value>https://slc06tun.dev.oraclecorp.com:10614/setup/faces/</Value>
+        </Variable>
+      
+        <Variable> 
+                    <Name>TM_Url</Name> 
+                    <Value>https://slc06tun.dev.oraclecorp.com:10616/crmPerformance/faces/</Value>
+        </Variable>
+        <Variable> 
+                    <Name>WS_Url</Name> 
+                   <Value>http://slc06tun.us.oracle.com/</Value>
+       </Variable>
+     
+       <Variable> 
+                   <Name>ESDTECH_Url</Name> 
+                   <Value>https://slc06tun.dev.oraclecorp.com:10616/sales/faces/</Value>
+       </Variable> 
+        
+       <Variable> 
+                   <Name>RECEIVABLES_Url</Name> 
+                   <Value>https://slc06tun.dev.oraclecorp.com:10604/receivables/faces/</Value>
+       </Variable>
+           <Variable> 
+                   <Name>PRODUCTMGMT_Url</Name> 
+                   <Value>https://slc06tun.dev.oraclecorp.com:10618/productManagement/faces/</Value>
+       </Variable>
+       <Variable> 
+                   <Name>APPLCORE_Url</Name> 
+                   <Value>https://slc06tun.dev.oraclecorp.com:10614/fndSetup/faces/</Value>
+       </Variable>
+            
+       <Variable> 
+                   <Name>ATK_Url</Name> 
+                   <Value>https://slc06tun.dev.oraclecorp.com:10614/homePage/faces/</Value>
+       </Variable>
+	
+      <Variable> 
+       <Name>FUSE_Url</Name> 
+       <Value>https://slc06tun.dev.oraclecorp.com:10616/sales/faces/CrmFusionHome</Value> 
+       </Variable>
+	<Variable>
+     		<Name>FUSEPLUS_Url</Name> 
+     		<Value>https://slc06tun.dev.oraclecorp.com:10614/homePage/faces/FuseWelcome</Value> 
+   	</Variable>
+     
+       <Variable> 
+                   <Name>PROCUREMENT_Url</Name> 
+                   <Value>https://prc.us.oracle.com:10608/procurement/faces/</Value>
+       </Variable>
+       <Variable> 
+                   <Name>HZ_WSDL_Url</Name> 
+                   <Value>https://slc06tun.dev.oraclecorp.com:10616/foundationResources/ResourceService</Value>
+       </Variable> 
+	    <!-- Below changed to http since service is not public  -->
+       <Variable> 
+                   <Name>TM_WSDL_Url</Name> 
+                   <Value>http://slc06tun.us.oracle.com:10615/salesTerrMgmtQuotasSetup/QuotaAdminService</Value>
+       </Variable> 
+       <Variable> 
+                   <Name>DQ_WSDL_Url</Name> 
+                   <Value>https://slc06tun.dev.oraclecorp.com:10616/dataQualityRealTime/DQRealTimeService</Value>
+       </Variable> 
+       <Variable> 
+                   <Name>SF_WSDL_Url</Name> 
+                   <Value>https://slc06tun.dev.oraclecorp.com:10616/salesForecastingForecasts/</Value>
+       </Variable>
+       <Variable> 
+                   <Name>CONTRACTS_WSDL_Url</Name> 
+                   <Value>https://slc06tun.dev.oraclecorp.com:10616/contractsCoreTransaction/ContractService</Value>
+       </Variable> 
+       <Variable> 
+                   <Name>BPM_Url</Name> 
+                   <Value>https://slc06tun.dev.oraclecorp.com:10616/integration/worklistapp/faces/</Value>
+       </Variable> 
+       <Variable> 
+                   <Name>SUPPLIER_Url</Name> 
+                   <Value>https://prc.us.oracle.com:10610/supplierPortal/faces/</Value>
+       </Variable>
+       
+         <!-- Below changed to http since service is not public  -->
+       <Variable> 
+                   <Name>foundationParties_Url</Name> 
+                   <Value>http://slc06tun.us.oracle.com:10615/foundationParties/</Value>
+       </Variable>
+     
+              <Variable> 
+                   <Name>foundationResources_Url</Name> 
+                   <Value>https://slc06tun.dev.oraclecorp.com:10616/foundationResources/</Value>
+       </Variable> 
+     <!-- Below changed to http since service is not public  -->
+        <Variable>
+                   <Name>foundation_Url</Name>
+     	      <Value>http://slc06tun.us.oracle.com:10615/foundation/</Value> 
+        </Variable>
+     
+             <Variable> 
+                   <Name>outlookEdition_Url</Name> 
+                   <Value>https://slc06tun.dev.oraclecorp.com:10616/outlookEditionConnector/</Value>
+       </Variable> 
+     
+       <Variable> 
+                   <Name>outlookEditionConnector_Url</Name> 
+                   <Value>https://slc06tun.dev.oraclecorp.com:10616/outlookEditionConnector/</Value>
+       </Variable>
+     
+       <Variable>
+                    <Name>BudgetEntry_Url</Name>
+                    <Value>https://slc06tun.dev.oraclecorp.com:10616/mktBudgets/</Value>
+       </Variable>
+       <Variable>
+                    <Name>SalesForecastingwebservice_Url</Name>
+                    <Value>https://slc06tun.dev.oraclecorp.com:10616/salesForecastingForecasts/</Value>
+       </Variable>
+       <Variable>
+                     <Name>appCmmnCompInteractions_Url</Name>
+                     <Value>https://slc06tun.dev.oraclecorp.com:10616/appCmmnCompInteractions/</Value>
+       </Variable>
+     
+       <Variable>
+      		<Name>partnerCenterCoreWS_Url</Name> 
+      		<Value>https://slc06tun.dev.oraclecorp.com:10616/partnerCenterCorePublicModel/</Value> 
+       </Variable>
+     
+       <Variable> 
+                   <Name>ZCX_Url</Name> 
+                   <Value>https://slc06tun.dev.oraclecorp.com:10616/sales/faces/</Value>        
+       </Variable>
+     
+       <Variable> 
+                   <Name>HCM_Url</Name> 
+                   <Value>https://slc06tun.dev.oraclecorp.com:10620/hcmCore/faces/</Value>        
+       </Variable>
+     
+       <Variable>
+         	      <Name>DQRealTime_Url</Name>     
+         	      <Value>https://slc06tun.dev.oraclecorp.com:10616/dataQualityRealTime/</Value>
+       </Variable>
+     
+       <Variable>
+         	      <Name>ActivityBaseAppointmentService_WSDL_Url</Name>    
+         	      <Value>https://slc06tun.dev.oraclecorp.com:10616/appCmmnCompActivities/ActivityBaseAppointmentService</Value>
+       </Variable>
+     
+       <Variable> 
+                   <Name>LocationService_WSDL_Url</Name> 
+                   <Value>https://slc06tun.dev.oraclecorp.com:10616/foundationParties/LocationService</Value>
+       </Variable>
+	<!-- Below changed to http since service is not public, changed in 1015  -->
+     
+       <Variable> 
+                   <Name>mklLeads_Url</Name> 
+                   <Value>http://slc06tun.us.oracle.com:10615/mklLeads/</Value>
+       </Variable>
+     
+       <Variable> 
+                   <Name>mklLeadshttps_Url</Name> 
+                   <Value>https://slc06tun.dev.oraclecorp.com:10616/mklLeads/</Value>
+       </Variable>
+	    <!-- Below changed to http since service is not public  -->
+       <Variable> 
+                   <Name>SalesParties_Url</Name> 
+                   <Value>http://slc06tun.us.oracle.com:10615/crmCommonSalesParties/</Value>
+       </Variable>
+     
+       <Variable> 
+                   <Name>OCPR_Url</Name> 
+                   <Value>https://slc06tun.dev.oraclecorp.com:10616/sales/faces/</Value>
+       </Variable>
+     
+     <!-- Below variables are DB related, values are obtained from plan.properties-->
+       <Variable>
+     		<Name>DB_HOST</Name>
+     		<Value>slc06tuk.us.oracle.com</Value>
+     	</Variable>
+     	<Variable>
+     		<Name>DB_PORT</Name>
+     		<Value>1559</Value>
+     	</Variable>
+     	<Variable>
+     		<Name>DB_SERVICENAME</Name>
+     		<Value>ems7238</Value>
+     	</Variable>
+     	    
+             <Variable> 
+                   <Name>User_Xml_File_Name</Name> 
+                   <Value>crm_user.xml</Value>
+             </Variable> 
+     	<Variable>
+     		<Name>User_Xml_File_Name_OATS</Name>
+     		<Value>Users.xml</Value>
+     	</Variable>
+     	<Variable>
+     		<Name>TESTDATAPATH</Name>
+     		<Value>TestDataFiles.csv</Value>
+     	</Variable>
+     	<Variable>
+     		<Name>XMLRESULTPATH</Name>
+     		<Value>F:\CRM\DTECodeline\REL</Value>
+     	</Variable>
+     	<Variable>
+     		<Name>REPORTFOLDER</Name>
+     		<Value>DTE</Value>
+     	</Variable>
+     <Variable> 
+       <Name>opptyMgmtExtensibility_Url</Name> 
+       <Value>https://slc06tun.dev.oraclecorp.com:10616/opptyMgmtExtensibility/</Value>
+     </Variable>
+     <Variable>
+     	<Name>opptyMgmtOpportunities_Url</Name>
+     	<Value>https://slc06tun.dev.oraclecorp.com:10616/opptyMgmtOpportunities/</Value>
+     </Variable>
+     
+      <Variable>
+       <Name>IC_Url</Name> 
+       <Value>https://slc06tun.dev.oraclecorp.com:10612/incentiveCompensation/faces/</Value> 
+       </Variable>
+     
+     <Variable>
+       <Name>MOB_FUSION_HOST_HTTPS</Name> 
+       <Value>slc06tun.dev.oraclecorp.com:10616</Value> 
+     </Variable>
+       <Variable> 
+                   <Name>EM_Url</Name> 
+                   <Value>http://slc06tun.us.oracle.com:10615/</Value>         
+       </Variable>
+     
+     <Variable>
+       		<Name>OIM_Url</Name> 
+      		<Value>%provisioning.include.idm.oim.external.endpoint.url%/oim</Value> 
+     </Variable>
+     
+     <Variable> 
+                   <Name>OBIEE_Url</Name> 
+                   <Value>https://slc06tun.dev.oraclecorp.com:%provisioning.setup.endpoint.core.bi.endpoint.PORT_HTTPS%/</Value>
+       </Variable>
+     <Variable> 
+                   <Name>APM_Url</Name> 
+                   <Value>https://slc06tun.dev.oraclecorp.com:10614/</Value>
+       </Variable>
+     
+     <Variable>
+       <Name>APPLICATION</Name> 
+       <Value>https://slc06tun.dev.oraclecorp.com:10616/homePage/faces/</Value> 
+     </Variable>
+     
+     <Variable>
+       <Name>COOKIE_URL</Name> 
+       <Value>http://www-apps-fusion.us.oracle.com:7500/cgi-bin/tpmfa/setcookie.pl</Value> 
+     </Variable>
+     
+     <Variable>
+       <Name>DC_Url</Name> 
+       <Value>https://slc06tun.dev.oraclecorp.com:%provisioning.setup.endpoint.core.bi.endpoint.PORT_HTTPS%/ui</Value> 
+     </Variable>
+     
+     <Variable>
+       <Name>WEBLOGIC_Url</Name> 
+       <Value>https://slc06tun.dev.oraclecorp.com:10616/console/console.portal</Value> 
+     </Variable>
+     
+     <Variable>
+       <Name>cdmHubBase_Url</Name> 
+       <Value>https://slc06tun.dev.oraclecorp.com:10616/cdmHubBase/</Value> 
+     </Variable>
+     
+	  <!-- Below changed to http since service is not public  -->
+     <Variable>
+       <Name>TM_WSDL1_Url</Name> 
+       <Value>http://slc06tun.us.oracle.com:10615/salesTerrMgmtTerritories/DimensionService</Value> 
+     </Variable>
+     
+     <Variable>
+       <Name>salesTerrMgmtTerritories_WSDL_Url</Name> 
+       <Value>https://slc06tun.dev.oraclecorp.com:10616/salesTerrMgmtTerritories/</Value> 
+     </Variable>
+     <Variable>
+     	<Name>EDQServerAddres</Name>
+     	<Value>slc06tun.dev.oraclecorp.com</Value>
+     </Variable>
+     <Variable>
+     	<Name>EDQPort</Name>
+     	<Value>10614</Value>
+     </Variable>
+     
+     <Variable>
+         <Name>FSM_PRODUCT_FUNCTION_LIBRARY</Name>
+         <Value>libcommon\fsm\oats\lib\SetupProductLibrary</Value>
+     </Variable>
+     <Variable>
+         <Name>P4FA_PATH</Name>
+         <Value>%P4FA_PATH%</Value>
+     </Variable>
+     <Variable>
+        <Name>FSM_OBJ_TIME_OUT</Name>
+        <Value>180</Value>
+     </Variable>
+
+     <!-- This is the PRIVATE variables section -->
+       
+       <Variable> 
+                   <Name>SST_Url</Name> 
+                   <Value>http://fusionservicetester.us.oracle.com/</Value>
+       </Variable>
+     	<Variable>
+     		<Name>DTEREPORTING_FLAG</Name>
+     		<Value>Y</Value>
+       </Variable>
+     	<Variable>
+     		<Name>PARALLELREPORT_FLAG</Name>
+     		<Value>N</Value>
+     	</Variable>
+       <Variable> 
+                   <Name>CS_Url</Name> 
+                   <Value>https://apfems.us.oracle.com:/</Value>
+       </Variable>
+         
+       <Variable>
+                    <Name>OMLOG_Url</Name>
+                     <Value>TBD</Value>
+      </Variable>
+       <Variable>
+       		<Name>DB_Interface</Name> 
+       		<Value>Driver={Microsoft ODBC for Oracle}; CONNECTSTRING=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST_HTTPS=TBD)(PORT_HTTPS=TBD)) (CONNECT_DATA = (SERVICE_NAME =TBD)))); uid=;pwd=;</Value> 
+       </Variable>
+       <Variable>
+       		<Name>DB_Target</Name> 
+     		<Value>Driver={Microsoft ODBC for Oracle}; CONNECTSTRING=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST_HTTPS=TBD)(PORT_HTTPS=TBD))(CONNECT_DATA=(SERVICE_NAME=TBD))); uid=;pwd=;</Value> 
+       </Variable>
+     
+     <!-- Below variables for Read and r/w users for DB -->
+       <Variable>
+     		<Name>DB_READONLY_USER</Name>
+     		<Value>fusion_read_only</Value>
+       </Variable>
+       <Variable>
+     		<Name>DB_READONLY_PASSWORD</Name>
+     		<Value>fusion_read_only</Value>
+       </Variable>
+       <Variable>
+     		<Name>DB_INTERFACE_USER</Name>
+     		<Value>fusion</Value>
+       </Variable>
+       <Variable>
+     		<Name>DB_INTERFACE_PASSWORD</Name>
+     		<Value>fusion</Value>
+       </Variable> 
+		
+</Environment>

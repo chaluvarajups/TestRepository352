@@ -1,0 +1,43 @@
+TestNGAnotation_1.java and TestNGAnotation_2.java contains annotations, running both TCs in single build.xml suite
+ 
+TestNGAnotation_1.java  ]
+                             => testng-customsuite.xml  , <suite name="Functional Test suite">
+TestNGAnotation_1.java  ]
+
+--------------------------------------------------------------------------------------------------
+created another customsuite, named suite as Functional Test suite
+
+PaytmMasterPay.java  ]
+                            => testng-customsuitePaytm.xml   ,    <suite name="Functional Test suite">
+   Paytmpay.java     ] 											  <test verbose="2" name="System test">	
+   			  
+--------------------------------------------------------------------------------------------------
+Running 2 custom suites in a batch.
+
+<suite-file path ="./testng-customsuite.xml"/>        ]
+                                                          => testng-BatchSuite.xml,   <suite name="Batch Suite">  
+<suite-file path ="./testng-customsuitePaytm.xml"/>   ]			
+----------------------------------------------------------------------------------------------------------
+TestNGPriority.java , Tests will exe based on priority and conditions also depends on other test results.
+----------------------------------------------------------------------------------------------------------
+TestDataFile.java  => DataParameters.java , if we want to pass data to prog, we use test data file.
+----------------------------------------------------------------------------------------------------------
+GroupingTests.java  => testng-grouping.xml  , group the TCs and include exclude them in main run.
+----------------------------------------------------------------------------------------------------
+LoginTest.java
+				=> ListenerTestNG.xml   if @Test pass then execute some method els execute some other method.
+Listener.java 
+--------------------------------------------------------------------------------------------------------
+ExeFailedTest1  ]											
+ExeFailedTest2   ] => ExeFtest.xml => test-output folder =>	ExeFailTest-> testng-failed.xml->RerunFailedTest.java ->Failed Suite[ExeFailTest]				
+ExeFailedTest3  ] 											
+																	
+
+ when we run ExeFtest.xml(contains smoke TCs), test-output folder will be generated.it contains 'ExeFailTest', in that  testng-failed.xml
+ will be there which contains failed test among TCs in suite.we can run it to rerun the failed TCs or we can create automated 
+ prog(RerunFailedTest.java), if we run it, it will check if any TCs failed and will rerun them and geneartes Failed Suite[ExeFailTest] if 
+ they fail again.	
+---------------------------------------------------------------------------------------------------------------------------
+
+
+						

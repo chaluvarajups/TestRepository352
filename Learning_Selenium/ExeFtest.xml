@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ExeFailTest">
+  <test name="EFT">
+    <classes> 
+      <class name="TestNG.ExeFailedTest1"/>
+      <class name="TestNG.ExeFailedTest2"/>
+      <class name="TestNG.ExeFailedTest3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

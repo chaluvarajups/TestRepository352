@@ -1,0 +1,3 @@
+Fusion.login.UID=//*[@id='userid']
+Fusion.login.PWD=//*[@id='password']
+Fusion.login.Submit=//*[@id='Login']//button

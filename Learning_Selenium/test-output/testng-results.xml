@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Functional Test suite" duration-ms="118" started-at="2016-07-28T16:00:05Z" finished-at="2016-07-28T16:00:05Z">
+    <groups>
+    </groups>
+    <test name="System test" duration-ms="118" started-at="2016-07-28T16:00:05Z" finished-at="2016-07-28T16:00:05Z">
+      <class name="TestNG.TestNGAnotation_1">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestNG.TestNGAnotation_1@4cdbe50f]" name="beforeClass" is-config="true" duration-ms="1" started-at="2016-07-28T21:30:05Z" finished-at="2016-07-28T21:30:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.TestNGAnotation_1@4cdbe50f]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2016-07-28T21:30:05Z" finished-at="2016-07-28T21:30:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:TestNG.TestNGAnotation_1@4cdbe50f]" name="test1" duration-ms="1" started-at="2016-07-28T21:30:05Z" finished-at="2016-07-28T21:30:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.TestNGAnotation_1@4cdbe50f]" name="afterMethod" is-config="true" duration-ms="7" started-at="2016-07-28T21:30:05Z" finished-at="2016-07-28T21:30:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:TestNG.TestNGAnotation_1@4cdbe50f]" name="test2" duration-ms="1" started-at="2016-07-28T21:30:05Z" finished-at="2016-07-28T21:30:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.TestNGAnotation_1@4cdbe50f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-07-28T21:30:05Z" finished-at="2016-07-28T21:30:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.TestNGAnotation_1@4cdbe50f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-07-28T21:30:05Z" finished-at="2016-07-28T21:30:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestNG.TestNGAnotation_1@4cdbe50f]" name="afterClass" is-config="true" duration-ms="1" started-at="2016-07-28T21:30:05Z" finished-at="2016-07-28T21:30:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestNG.TestNGAnotation_1 -->
+      <class name="TestNG.TestNGAnotation_2">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:TestNG.TestNGAnotation_2@16c0663d]" name="beforeSuite" is-config="true" duration-ms="72" started-at="2016-07-28T21:30:04Z" finished-at="2016-07-28T21:30:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNG.TestNGAnotation_2@16c0663d]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-07-28T21:30:05Z" finished-at="2016-07-28T21:30:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestNG.TestNGAnotation_2@16c0663d]" name="beforeClass" is-config="true" duration-ms="1" started-at="2016-07-28T21:30:05Z" finished-at="2016-07-28T21:30:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:TestNG.TestNGAnotation_2@16c0663d]" name="test3" duration-ms="0" started-at="2016-07-28T21:30:05Z" finished-at="2016-07-28T21:30:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestNG.TestNGAnotation_2@16c0663d]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-07-28T21:30:05Z" finished-at="2016-07-28T21:30:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNG.TestNGAnotation_2@16c0663d]" name="afterTest" is-config="true" duration-ms="1" started-at="2016-07-28T21:30:05Z" finished-at="2016-07-28T21:30:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:TestNG.TestNGAnotation_2@16c0663d]" name="afterSuite" is-config="true" duration-ms="0" started-at="2016-07-28T21:30:05Z" finished-at="2016-07-28T21:30:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- TestNG.TestNGAnotation_2 -->
+    </test> <!-- System test -->
+  </suite> <!-- Functional Test suite -->
+</testng-results>
