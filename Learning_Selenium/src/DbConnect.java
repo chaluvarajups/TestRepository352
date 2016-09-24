@@ -19,7 +19,7 @@ public class DbConnect {
 		Class.forName("oracle.jdbc.driver.OracleDriver");
 		
 		//get connection DB
-		Connection con=DriverManager.getConnection("jdbc:oracle:thin:orcl","System", "Welcome1");
+		Connection con=DriverManager.getConnection("jdbc:oracle:thin:orcl","System", "Welcome2");
 		System.out.println("Login to db Success");
 
 		//Create Statment object
